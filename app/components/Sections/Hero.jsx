@@ -3,7 +3,7 @@ import React from "react";
 import { useState, useRef } from "react";
 import Image from "next/image";
 import videoSource from "@/public/bgVideo.mp4";
-import imageSource from "@/public/bgImg.jpg";
+import imageSource from "@/public/bgImg.png";
 
 const Hero = () => {
   const [showVideo, setShowVideo] = useState(false);

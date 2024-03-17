@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex sticky justify-between w-full items-center px-12 py-4  top-0 left-0 right-0 z-10 text-white  bg-black">
+    <div className="flex sticky justify-between w-full items-center px-14 py-4  top-0 left-0 right-0 z-10 text-white  bg-black">
       <div>
         <h1 className="text-3xl font-bold">Studio Ghibli</h1>
       </div>
@@ -28,7 +28,7 @@ const Navbar = () => {
           Gallery
         </Link>
 
-        <button className="bg-black border-2 border-white font-bold rounded text white px-8 py-2">
+        <button className="bg-black border-2 border-white hover:bg-white  font-bold rounded text white px-8 py-2">
           Download Movies
         </button>
       </div>
@@ -66,7 +66,7 @@ const Navbar = () => {
               About us
             </Link>
             <Link className="font-medium text-base" href="/gallery" onClick={toggleMenu}>
-              Gallery
+            Gallery
             </Link>
           </div>
         </div>
